@@ -1,0 +1,486 @@
+@media screen and (max-width: 1080px) {
+    body{
+    }
+    .main-tow .box-right,
+    .header .search{
+        display: none !important;
+    }
+    .header{
+        min-width:auto !important;
+        padding: 0 10px;
+
+    }
+    .header .top-nav{
+        margin-left: 0 !important;
+    }
+    .header .top-nav li{
+        display: none !important;
+    }
+    .header .top-nav li.top-nav-fatie {
+        display: block !important;
+        margin-left: 0 !important;
+        line-height: 55px !important;
+    }
+    .header .top-nav li.top-nav-fatie>a.btn {
+
+        padding: 2px 5px;
+        font-size: 14px !important;
+    }
+    .header .user-nav li.message{
+        margin-right: 20px !important;
+    }
+    .header .user-nav .un-login-state > li,
+    .header .user-nav .login-state > li{
+        margin-left: 0px !important;
+    }
+    .m-search{
+        display: inline-block !important;
+        margin-right: 20px !important;
+    }
+    .m-search > a{
+
+        width: 20px !important;
+        height: 20px !important;
+        /* vertical-align: middle; */
+        position: relative;
+        top: 2px;
+        right: 5px;
+    }
+    .m-search > a img{
+
+        width: 12px !important;
+        height: 15px !important;
+
+    }
+    .wrapper{
+        width:100% !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+        background-color: #f2f2f2 !important;
+        overflow: hidden !important;
+    }
+    .header .wrapper{
+        background-color: #fff !important;
+        overflow: visible !important;
+        height: 50px;
+    }
+    .footer .wrapper{
+        width:100% !important;
+    }
+    .header .logo{
+        font-size: 22px !important;
+    }
+    .header .logo img{
+        width:22px !important;
+        height: 22px !important;
+    }
+    /*.header .user-nav li.message label,
+    .header .user-nav li.notice label{
+        display: none;
+    }
+    .header .user-nav li.message > a{
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        font-size: 0;
+        background: url(../imgs/icons.png) no-repeat -358px -2px;
+        vertical-align: middle;
+    }
+    .header .user-nav li.notice{
+        width: 0;
+    }*/
+    .header .user-nav .drop-down-list{
+        left: 40px;
+    }
+    /*	.notice-box{
+            left:-250px;
+        }*/
+    /*.header .user-nav li.notice > a{
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        font-size: 0;
+        background: url(../imgs/icons.png) no-repeat -373px -2px;
+        vertical-align: middle;
+    }
+
+    .header .user-nav li.avatar img{
+        margin-top: 0 !important;
+        position: absolute !important;
+        top:11px !important;
+    }*/
+    .wrapper > .hot-topic-nav{
+        padding: 10px 20px 0 20px !important;
+        display: none !important;
+    }
+    .article-list{
+        margin-bottom: 0;
+    }
+    .article-content > .hot-topic-nav{
+        display: none !important;
+    }
+    .article-content > .hot-topic-nav.bottom-hot-topic-nav{
+        display: block !important;
+        margin-top:10px;
+    }
+    .search {
+        height: 32px;
+        padding: 14px 0 14px 30px;
+        background: #fff;
+        width: 100% !important;
+    }
+    .search .cancel{
+        margin-left: 20px;
+        font-size: 20px;
+        color : #be4841;
+        position: relative;
+        top:5px;
+    }
+    .search-input {
+        position: absolute;
+        width: 20%;
+        left: 340px;
+    }
+
+    .search-input input {
+        border: 1px solid #ccc;
+        width: 100%;
+        line-height: 32px;
+        padding-left: 44px;
+        height: 32px;
+        font-size: 14px;
+        border-radius: 30px;
+        outline: none;
+        background: #ebebeb;
+    }
+    .search-input a {
+        display: block;
+        width: 18px;
+        height: 14px;
+        background: url(../imgs/icons.png?201805141132) no-repeat -32px -190px;
+        position: relative;
+        bottom: 23px;
+        right: -16px;
+    }
+    .search-type-nav{
+        padding:20px 0;
+        border-top: 1px solid #ccc;
+        background: #fff;
+        display: block !important;
+    }
+    .search-type-nav a{
+        display: block;
+        float: left;
+        width: 33%;
+        font-size: 22px;
+        text-align: center;
+    }
+
+
+    .index-list{
+        width:100% !important;
+    }
+    .index-list > ul > li{
+        border-radius: 0 !important;
+        padding: 20px !important;;
+    }
+    .article-list .list-item .item-info > .item-pic{
+        margin-right: 10px !important;
+    }
+    .article-list .list-item .item-info > .item-pic img{
+        border-radius:4px !important;
+        /*max-width: 100px;
+        height:auto;
+        max-height: 100px;*/
+    }
+    .article-list .list-item .item-info > .item-content{
+        overflow:inherit !important;
+    }
+    .main-tow .box-left{
+        width:100% !important;
+        padding: 20px !important;
+        box-sizing: border-box !important;;
+    }
+    .article-content .article-txt img{
+        width:100% !important;
+    }
+    .article-content .author-article ul > li {
+        line-height: 16px !important;
+        margin-bottom:15px !important;
+    }
+    .article-content .author-article ul > li a {
+        line-height: 16px !important;
+    }
+    .article-content h1 {
+        font-size: 22px !important;
+    }
+    .footer{
+        padding-top: 20px !important;
+        margin-top: 20px !important;
+        background:#f2f2f2 !important;
+    }
+    .footer .wrapper > p{
+        padding: 0 20px;
+    }
+    .main-tow{
+        min-height: inherit !important;
+    }
+    .btn-big{
+        border-radius: 0 !important;
+    }
+
+    /*====个人中心======**/
+    .personal-top-nav .user-info-box{
+        width:auto !important;
+        float: none !important;
+    }
+    .personal-top-nav .user-info-box .user-introduce{
+        overflow: hidden !important;
+        word-break:keep-all !important;
+        text-overflow:ellipsis !important;
+    }
+    .personal-top-nav .user-info-box .user-introduce span{
+        display: inline !important;
+        word-break:normal !important;
+        white-space:nowrap !important;
+        overflow: visible !important;
+    }
+
+    /*====回复=====**/
+    .box-left .article-list .comment-box .comment-main{
+        float: none !important;
+        margin-left: 48px !important;
+        width:auto !important;
+    }
+
+    /*===账号设置====**/
+    .user-setting{
+        min-height: auto !important;
+    }
+    .user-setting .safe-setting>ul>li.left-box{
+        display: none !important;
+    }
+    .user-setting .safe-setting>ul>li.right-box{
+        margin-left: 0 !important;
+    }
+    .user-setting .bind-mobile{
+        margin-top: 0 !important;
+    }
+    .user-setting .bind-mobile .form-group>label{
+        text-align: left !important;
+        width: 110px !important;
+    }
+
+    .user-setting .third-bind li{
+        margin-bottom: 20px !important;
+    }
+    /*======私信列表========*/
+    .message-box .message-list .message-main{
+        width:auto !important;
+        float: none !important;
+        margin-left: 50px !important;
+    }
+    /*======提醒列表======*/
+    .my-notice .my-notice-main .my-notice-nav-list li{
+        line-height: 22px !important;
+        height: auto !important;
+        clear:both !important;
+        padding: 5px 0;
+    }
+    .my-notice .my-notice-main .my-notice-nav-list li .notice-content a{
+        max-width:none !important;
+        word-break: normal !important;
+        white-space:normal !important;
+        overflow: visible !important;
+    }
+    .my-notice .my-notice-main .my-notice-nav-list li .notice-right{
+        float: none !important;
+    }
+    /*====头像设置=====*/
+    .account-setting .edit-content .user-set-photo-box{
+        margin: 0 !important;
+    }
+    .account-setting .edit-content .user-set-photo-box .tools{
+        margin-top:10px !important;
+        margin-left:0 !important;
+        position: static !important;
+        float: none !important;
+        height: auto !important;
+    }
+    .account-setting .edit-content .user-set-photo-box .user-photo img{
+        max-width: none !important;
+        max-height: none !important;
+        width:120px !important;
+        height: 120px !important;
+    }
+    .account-setting .edit-content .user-set-photo-box .user-photo{
+        width:120px !important;
+        height: 120px !important;
+        float: none !important;
+    }
+    /*======表单======*/
+    .form-group>label{
+        width: 86px !important;
+    }
+    .form-input{
+        width: auto;
+    }
+    .form-helpe{
+        margin-left: 86px !important;
+        display: block !important;
+    }
+    .form-group textarea{
+        width:auto !important;
+    }
+    .invite-code .input-code .title{
+        padding: 0 !important;
+    }
+    .invite-code .input-code .main{
+        padding: 0 0 10px 0;
+    }
+    /*====草稿�?======*/
+    .my-article .main .list-item .warning .title{
+        height: auto !important;
+        line-height: 22px !important;
+    }
+    .my-article .main .list-item .title span{
+        position: static !important;
+        float: none !important;
+        padding-top: 5px !important;
+    }
+    .my-article .main .list-item .warning>p{
+        height: auto !important;
+        line-height: 16px !important;
+    }
+    .my-article .main .list-item .normal .title{
+        height: auto !important;
+    }
+    .my-article .main .list-item .normal .title a{
+        line-height: 20px !important;
+        height: auto !important;
+        width:auto !important;
+        overflow:visible !important;
+        word-break: normal !important;
+        white-space: normal !important;
+        text-overflow: normal !important;
+    }
+    .order-control{
+        padding-left: 2% !important;
+        padding-right: 0 !important;
+    }
+    .order-control .orderby-button {
+        margin-right: 5px !important;
+        font-size: 14px !important;
+    }
+
+    .new-comment-list .list-body .comment-item .list-footer .operations .share {
+        display : none !important;
+    }
+    .new-comment-list .list-body .comment-item .list-footer .operations > a {
+        margin-left: 10px !important;
+    }
+    .new-comment-list .list-body .comment-item .user-box .signature{
+        display:none !important;
+    }
+    .cmt-desc>a.go-center{
+        display:none !important;
+    }
+    .cmt-desc>a.go-post{
+        display:none !important;
+    }
+    .gc-comment .comment-component .comment-footer a.bold,
+    .gc-comment .comment-component .comment-footer a.bold2{
+        margin-left:10px !important;
+    }
+    .gc-comment .comment-component .comment-footer a.simpleupload {
+        margin-left: 10px !important;
+    }
+    .arrow-down {
+        top: 12px !important;
+    }
+
+    .collection{
+        display: none !important;
+    }
+    .shared-box{
+        display: none !important;
+    }
+    .user-box .list-user-main .time{
+        display: block !important;
+        font-size: 12px !important;
+    }
+    .user-box .list-avatar {
+        width: 32px !important;
+        height: 32px !important;
+    }
+    .user-box .list-avatar > img {
+        width: 32px !important;
+        height: 32px !important;
+        position: relative;
+        top: 5px;
+    }
+    .user-box .list-user-main {
+        margin-left: 45px !important;
+    }
+    .op-tools .time {
+        display: none !important;
+    }
+
+    .article-content .article-bottom-user span.split {
+        display: none;
+    }
+    .article-content .article-bottom-user a.article-count {
+        display: none;
+    }
+    .article-content .article-bottom-user .attention-count{
+        display: none;
+    }
+
+    .user-box .user-main .desc{
+        max-width: 150px !important;
+        overflow: hidden !important;
+        height: 26px !important;
+        text-overflow: ellipsis !important;
+        word-break: keep-all !important;
+        white-space: nowrap !important;
+    }
+
+    .article-content .article-bottom-user a.btn{
+        padding: 5px 15px !important;
+    }
+    .message-log-title,.notice-log-title{
+        display: none;
+    }
+
+    .header .user-nav li.message .tip {
+        left: 40px !important;
+    }
+    .header .user-nav li.notice .tip {
+        left: 6px !important;
+    }
+    .header .user-nav li.notice {
+        width: auto !important;
+    }
+    .my-notice .my-notice-main .my-notice-nav-li li{
+        box-sizing: border-box !important;
+        height: 53px !important;
+        margin-right: 20px !important;
+    }
+    .main-tow{
+        margin-top: 0 !important;
+    }
+
+    .user-setting>.header-box>a {
+        margin-right: 10px !important;
+    }
+    .interact-info-box .main-info .user-box .user-info-box .user-introduce{
+        width: auto !important;
+    }
+
+    .user-setting .notice-config .left-box{
+        width: 135px !important;
+    }
+    .user-setting .notice-config .right-box{
+        width: auto !important;
+    }
+}

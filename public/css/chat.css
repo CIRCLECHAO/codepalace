@@ -1,0 +1,228 @@
+/*聊天用户列表*/
+ul.user_list {
+    clear: both;
+    overflow: hidden;
+
+}
+
+ul.user_list  li {
+    list-style-type: none;
+    display: block;
+    line-height: 36px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+ul.user_list  li:hover {
+    background-color: #bf0b14;
+    color: #ffffff;
+
+}
+ul.user_list  li img{
+    width: 36px;
+    height: 36px;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.user_list_div{
+    overflow: hidden;
+    height: 92%;
+}
+
+.user_list_div:hover{
+    overflow: auto;
+}
+.user_setting_div{
+    height: 8%;
+    line-height: 8%;
+    background-color: #f7f7f7;
+}
+.user_setting_div img{
+    cursor: pointer;
+    padding-top: 8px;
+    padding-left: 10px;
+    line-height: 20px;
+}
+/*聊天框*/
+.chat_container{
+    width: 100%;
+    height: 100%;
+}
+
+/*.chat_content_text{*/
+    /*overflow: hidden;*/
+/*}*/
+/*.chat_content_text:hover{*/
+    /*overflow: auto;*/
+/*}*/
+
+.chat_container textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.chat_content{
+    overflow: hidden;
+    width: 100%;
+    height: 67%;
+    border-bottom: 1px solid darkgrey;
+}
+.chat_content:hover{
+
+    overflow:auto;
+}
+.chat_content_text{
+    width: 583px;
+}
+
+.chat_content img{
+    display: inline;
+}
+.chat_content_avatar{
+    width: 40px;
+    border-radius: 50%;
+}
+.left_chat_li{
+    padding:0 2%;
+}
+.left_chat_word{
+    text-align: left;
+    word-break:break-all;
+    color: #FFFFFF;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    /* Webkit: Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fc8083), to(#8380fc));
+    /* Webkit: Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(left top, #fc8083, #8380fc);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(left top, #fc8083, #8380fc);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(left top, #fc8083, #8380fc);
+    /* IE 10 */
+    background: -ms-linear-gradient(left top, #fc8083, #8380fc);
+    /* IE < 10 */
+    /* 注意：这一行必须写在最后 */
+    /*FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ff6600, endColorStr=#8380fc);*/
+}
+.right_chat_li{
+    text-align: right;
+    padding-left: 2%;
+
+    /*margin-right: 2%;*/
+
+}
+.right_chat_word{
+    text-align: left;
+    word-break:break-all;
+    color: #FFFFFF;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    /* Webkit: Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fc8083), to(#8380fc));
+    /* Webkit: Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(left top, #fc8083, #8380fc);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(left top, #fc8083, #8380fc);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(left top, #fc8083, #8380fc);
+    /* IE 10 */
+    background: -ms-linear-gradient(left top, #fc8083, #8380fc);
+    /* IE < 10 */
+    /* 注意：这一行必须写在最后 */
+    /*FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#fc8083, endColorStr=#8380fc);*/
+}
+.chat_middle{
+    overflow: auto;
+    width: 100%;
+    height: 5%;
+}
+.chat_middle img{
+    width: 20px;
+    height: 20px;
+}
+#facebox{
+    box-shadow: 0 0 15px #4E4E4E; padding:10px
+}
+.chat_send{
+    width: 100%;
+    height: 20%;
+    /*border-bottom: 1px solid darkgrey;*/
+}
+.chat_buttoner{
+    text-align: right;
+    width: 100%;
+    height: 8%;
+}
+
+.chat_send_button{
+    border: 1px solid #cccccc;
+    margin-right: 20px;
+    width: 55px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #cccccc;
+    cursor: pointer;
+}
+.chat_close_button{
+    border: 1px solid #cccccc;
+    margin-right: 20px;
+    width: 55px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.chat_button{
+    float: left;
+    position: fixed;
+    right: 5%;
+    bottom: 1%;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    display: block;
+    padding-top: 10px;
+    background: white;
+    text-align: center;
+    border-radius: 5px
+}
+.total_unread_num{
+    background-color: red;
+    color: #FFF;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 10px;
+    display: none;
+}
+.user_unread_num{
+    background-color: red;
+    color: #FFF;
+    width: 18px;
+    text-align: center;
+    height: 18px;
+    border-radius: 10px;
+    line-height: 18px;
+    margin-left: 20px;
+}
